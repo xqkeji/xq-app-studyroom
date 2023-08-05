@@ -1,0 +1,20 @@
+<?php
+return [
+	'list_form',
+	'row'=>[
+		'class'=>'text-center',
+	],
+	[
+		'ListId',
+		'ListReserveStudentNo',
+		'ListReserveStudentName',
+		'ListReserveBuilding',
+		'ListReserveRoom',
+		'ListReserveSeat',
+		'ListReserveDate',
+		'ListReserveTime',
+		'ListCreateTime',
+		'ListDelete',
+	],
+	'foot'=>'ListNoAdd',
+];

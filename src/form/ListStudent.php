@@ -1,0 +1,19 @@
+<?php
+return [
+	'list_form',
+	'row'=>[
+		'class'=>'text-center',
+	],
+	[
+		'ListId',
+		'ListStudentNo',
+		'ListStudentName',
+		'ListStudentSex',
+		'ListStudentAge',
+		'ListStudentCollege',
+		'ListStudentClass',
+		'ListSwitch',
+		'ListCreateTime',
+		'ListEditDelete',
+	],
+];

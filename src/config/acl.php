@@ -1,0 +1,25 @@
+<?php
+return [
+	'admin'=>[
+		'auth'=>[
+			'building'=>['admin','add','edit','delete','change','b_delete'],
+			'room'=>['admin','add','edit','delete','change','b_delete'],
+			'student'=>['admin','add','edit','delete','change','b_delete'],
+			'reserve'=>['admin','delete','change','b_delete'],
+			'feedback'=>['admin','edit','delete','b_delete'],
+			'notice'=>['admin','add','edit','delete','change','b_delete'],
+		],
+	],
+	'student'=>[
+		'login'=>[
+			'student_feedback'=>['admin','add','edit','delete','change','b_delete'],
+			'student_reserve'=>['admin','add','edit','delete','getoption'],
+			'student'=>[
+				'index','logout','change_password','notice','view_notice'
+			],
+		],
+	],
+	'guest'=>[
+		'student'=>['login','captcha'],
+	],
+];

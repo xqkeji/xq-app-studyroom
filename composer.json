@@ -1,0 +1,26 @@
+{
+    "name": "xqkeji/xq-app-studyroom",
+    "description": "一个基于新齐低代码开发框架自习室预约管理模块。",
+    "type": "library",
+    "license": "SSPL-1.0",
+    "autoload": {
+        "psr-4": {
+            "xqkeji\\app\\studyroom\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "xqkeji.cn"
+        }
+    ],
+    "extra": {
+        "post-package-install":[
+            {
+                "cmd":["xqkeji\\app\\studyroom\\composer\\Install","postInstall"]
+            }
+        ]
+    },
+    "require": {
+        "xqkeji/xq-app-admin":"^1.0"
+    }
+}
