@@ -76,7 +76,7 @@ class Install
                     'indexes' => [
                         [
                             // 索引名
-                            'name' => 'studyroom_student_unique',
+                            'name' => 'studyroom_reserve_unique',
                             // 索引字段数组
                             'key' => [
                                 'building_id' => 1,
