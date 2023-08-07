@@ -5,7 +5,7 @@ return [
 			'building'=>['admin','add','edit','delete','change','b_delete'],
 			'room'=>['admin','add','edit','delete','change','b_delete'],
 			'student'=>['admin','add','edit','delete','change','b_delete'],
-			'reserve'=>['admin','delete','change','b_delete'],
+			'reserve'=>['admin','delete','b_delete'],
 			'feedback'=>['admin','edit','delete','b_delete'],
 			'notice'=>['admin','add','edit','delete','change','b_delete'],
 		],

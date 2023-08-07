@@ -1,5 +1,55 @@
 <?php
 return [
+    /**后台权限 */
+    'studyroom module auth'=>'自习室管理',
+    'studyroom module building auth'=>'教学楼管理',
+    'studyroom module building admin auth'=>'教学楼列表',
+    'studyroom module building add auth'=>'添加教学楼',
+    'studyroom module building edit auth'=>'编辑教学楼',
+    'studyroom module building delete auth'=>'删除教学楼',
+    'studyroom module building change auth'=>'修改教学楼状态',
+    'studyroom module building b_delete auth'=>'批量删除教学楼',
+
+
+    'studyroom module room auth'=>'自习室管理',
+    'studyroom module room admin auth'=>'自习室列表',
+    'studyroom module room add auth'=>'添加自习室',
+    'studyroom module room edit auth'=>'编辑自习室',
+    'studyroom module room delete auth'=>'删除自习室',
+    'studyroom module room change auth'=>'修改自习室状态',
+    'studyroom module room b_delete auth'=>'批量删除自习室',
+
+
+    'studyroom module student auth'=>'学生管理',
+    'studyroom module student admin auth'=>'学生列表',
+    'studyroom module student add auth'=>'添加学生',
+    'studyroom module student edit auth'=>'编辑学生',
+    'studyroom module student delete auth'=>'删除学生',
+    'studyroom module student change auth'=>'修改学生状态',
+    'studyroom module student b_delete auth'=>'批量删除学生',
+
+
+    'studyroom module reserve auth'=>'选座信息管理',
+    'studyroom module reserve admin auth'=>'选座信息列表',
+    'studyroom module reserve delete auth'=>'删除选座信息',
+    'studyroom module reserve b_delete auth'=>'批量删除选座信息',
+
+
+    'studyroom module feedback auth'=>'反馈信息管理',
+    'studyroom module feedback admin auth'=>'反馈信息列表',
+    'studyroom module feedback edit auth'=>'查看反馈信息',
+    'studyroom module feedback delete auth'=>'删除反馈信息',
+    'studyroom module feedback b_delete auth'=>'批量删除反馈信息',
+
+    'studyroom module notice auth'=>'公告信息管理',
+    'studyroom module notice admin auth'=>'公告信息列表',
+    'studyroom module notice add auth'=>'添加公告信息',
+    'studyroom module notice edit auth'=>'编辑公告信息',
+    'studyroom module notice delete auth'=>'删除公告信息',
+    'studyroom module notice change auth'=>'修改公告信息状态',
+    'studyroom module notice b_delete auth'=>'批量删除公告信息',
+
+    //
 	'studyroom-building-admin'=>'教学楼管理',
     'studyroom-building-add'=>'添加教学楼',
     'studyroom-building-edit'=>'编辑教学楼',
