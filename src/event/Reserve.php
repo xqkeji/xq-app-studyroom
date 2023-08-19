@@ -4,7 +4,7 @@
  * @copyright 2023 新齐科技 (http://www.xqkeji.cn/)
  * @author 张文豪  <support@xqkeji.cn>
  */
-namespace xqkeji\app\study\event;
+namespace xqkeji\app\studyroom\event;
 use xqkeji\mvc\action\Add;
 use xqkeji\mvc\builder\Model;
 use xqkeji\App;
