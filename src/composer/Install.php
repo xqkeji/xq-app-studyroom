@@ -38,7 +38,7 @@ class Install
                 {
                     $uri='mongodb://'.$hostname.':'.$hostport;
                 }
-                $mustInsert=true;
+                
                 $manager = new Manager($uri,['serverSelectionTryOnce'=>false,'serverSelectionTimeoutMS'=>500,'connectTimeoutMS'=>500]);
                 //创建学生唯一索引
                 $cmd = new Command([
