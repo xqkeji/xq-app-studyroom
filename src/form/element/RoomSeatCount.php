@@ -9,6 +9,7 @@ return [
 		[
 			'between',
 			"minimum" => 1,
+			"maximum" => 9999,
 		]
 	],
 ];

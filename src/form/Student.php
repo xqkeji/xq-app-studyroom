@@ -7,7 +7,7 @@ return [
 		'StudentNo',
 		'StudentName',
 		'StudentPassword',
-		'StudentSex',
+		'Sex',
 		'StudentAge',
 		'StudentCollege',
 		'StudentClass',
