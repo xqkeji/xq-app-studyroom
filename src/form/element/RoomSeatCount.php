@@ -4,6 +4,7 @@ return [
 	'name'=>'seat_count',
 	'text'=>'座位数',
 	'defaultValue'=>0,
+	'attr_required'=>true,
 	'filters'=>['int'],
 	'validators'=>[
 		[
