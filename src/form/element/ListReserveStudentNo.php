@@ -9,8 +9,15 @@ return [
 			
 			$model=\xqkeji\mvc\builder\Model::getModel('student');
 			$student=$model->find($value);
-			$no=$student->getAttr('username');
-			return $no;
+			if($student)
+			{
+				$no=$student->getAttr('username');
+				return $no;
+			}
+			else
+			{
+				return '';
+			}
 		},
 	],	
 ];

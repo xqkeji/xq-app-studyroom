@@ -14,10 +14,12 @@ return [
 				'beforeRender'=>function($element){
 					$form=$element->getForm();
 					$entity=$form->getEntity();
-					$key=(string)$entity->getKey();
-					$url=xq_url('student/view_notice',[$key]);
-					$element->setAttr('xq-url',$url);
-					
+					if($entity)
+					{
+						$key=(string)$entity->getKey();
+						$url=xq_url('student/view_notice',[$key]);
+						$element->setAttr('xq-url',$url);
+					}
 				},
 			],
 		],

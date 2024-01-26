@@ -7,8 +7,15 @@ return [
 		'format'=>function($element,$value){
 			$model=\xqkeji\mvc\builder\Model::getModel('building');
 			$building=$model->find($value);
-			$name=$building->getAttr('name');
-			return $name;
+			if($building)
+			{
+				$name=$building->getAttr('name');
+				return $name;
+			}
+			else
+			{
+				return '';
+			}
 		},
 	],	
 ];
