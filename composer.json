@@ -2,7 +2,7 @@
     "name": "xqkeji/xq-app-studyroom",
     "description": "一个基于新齐低代码开发框架自习室预约管理模块。",
     "type": "library",
-    "license": "SSPL-1.0",
+    "license": "Apache-2.0",
     "autoload": {
         "psr-4": {
             "xqkeji\\app\\studyroom\\": "src/"
